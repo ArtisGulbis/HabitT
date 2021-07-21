@@ -10,7 +10,6 @@ namespace Persistence
 		}
 
 
-		public DbSet<Month> Months { get; set; }
 		public DbSet<Day> Days { get; set; }
 		public DbSet<Habit> Habits { get; set; }
 	}
